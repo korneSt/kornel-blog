@@ -1,3 +1,4 @@
+@import './colors.scss';
 html,
 body {
   padding: 0;
@@ -13,4 +14,15 @@ a {
 
 * {
   box-sizing: border-box;
+}
+p {
+  color: var(--color-text);
+}
+
+:root {
+  --color-text: #{$base-color};
+}
+
+[data-theme='dark'] {
+  --color-text: #{$base-color-dark};
 }

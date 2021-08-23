@@ -1,0 +1,21 @@
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: rgb(10, 78, 141);
+  height: 20vh;
+  // margin: 12px;
+  a {
+    text-decoration: none;
+    margin: 12px;
+  }
+  .btn {
+    padding: 4px 8px;
+    border: 2px solid black;
+    &:hover {
+      transition: all 0.4s ease;
+      background-color: black;
+      color: white;
+    }
+  }
+}
